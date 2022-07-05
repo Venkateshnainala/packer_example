@@ -1,0 +1,5 @@
+---
+- name: installing java
+  yum:
+   name: "{{ jdk_version }}"
+   state: present
